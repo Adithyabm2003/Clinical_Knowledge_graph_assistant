@@ -1,0 +1,7 @@
+streamlit
+neo4j
+google-generativeai
+pyvis
+networkx
+pandas
+python-dotenv

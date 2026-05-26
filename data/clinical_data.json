@@ -1,0 +1,37 @@
+[
+ {
+    "drug": "Pazopanib",
+    "targets": ["VEGFR", "PDGFR"],
+    "treats": ["Renal Cell Carcinoma"],
+    "adverse_events": ["Hypertension", "Fatigue"],
+    "clinical_phase": "Phase 3"
+  },
+  {
+    "drug": "Axitinib",
+    "targets": ["VEGFR"],
+    "treats": ["Kidney Cancer"],
+    "adverse_events": ["Hypertension", "Diarrhea"],
+    "clinical_phase": "Phase 3"
+  },
+  {
+    "drug": "Imatinib",
+    "targets": ["BCR-ABL", "KIT"],
+    "treats": ["Leukemia"],
+    "adverse_events": ["Nausea", "Fatigue"],
+    "clinical_phase": "Phase 4"
+  },
+  {
+    "drug": "Sunitinib",
+    "targets": ["VEGFR", "KIT"],
+    "treats": ["GIST"],
+    "adverse_events": ["Fatigue", "Hypertension"],
+    "clinical_phase": "Phase 3"
+  },
+  {
+    "drug": "Sorafenib",
+    "targets": ["RAF", "VEGFR"],
+    "treats": ["Liver Cancer"],
+    "adverse_events": ["Rash", "Hypertension"],
+    "clinical_phase": "Phase 3"
+  }
+]
