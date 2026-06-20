@@ -32,8 +32,11 @@ User Query:
 SUMMARY_PROMPT = """
 You are a clinical AI assistant.
 
-Summarize these Neo4j query results in simple clinical language.
+Based on the user's clinical query and the retrieved database context, provide a clear and concise final answer in simple clinical language.
 
-Results:
+User Query:
+{query}
+
+Retrieved Graph Context:
 {results}
 """

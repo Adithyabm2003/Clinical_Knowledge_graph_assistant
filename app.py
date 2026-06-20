@@ -3,7 +3,7 @@ import streamlit as st
 from llm.gemini_client import GeminiClient
 from graph.graph_queries import execute_cypher_query
 from visualization.graph_visualizer import generate_graph
-from utils.validators import validate_cypher
+from utils.validators import validate_cypher, validate_user_input
 from utils.helpers import convert_to_dataframe
 
 
@@ -51,6 +51,11 @@ query = st.text_input(
 if st.button("Analyze"):
 
     if query:
+        # Validate user input first
+        is_input_valid, input_error_msg = validate_user_input(query)
+        if not is_input_valid:
+            st.error(f"Input validation error: {input_error_msg}")
+            st.stop()
 
         gemini_client = GeminiClient()
 
@@ -78,7 +83,7 @@ if st.button("Analyze"):
         st.dataframe(dataframe)
 
         with st.spinner("Generating AI summary..."):
-            summary = gemini_client.summarize_results(results)
+            summary = gemini_client.summarize_results(query, results)
 
         st.subheader("AI Summary")
         st.success(summary)

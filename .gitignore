@@ -1,3 +1,20 @@
-/lib
-.venv\Lib
+# Virtual environment
+.venv/
+venv/
+ENV/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables
 .env
+
+# Pyvis graph visualization output
+graph.html
+
+# Local IDE folders
+.vscode/
+.idea/
+/lib

@@ -38,9 +38,10 @@ class GeminiClient:
 
         return cleaned_response
 
-    def summarize_results(self, results):
+    def summarize_results(self, user_query, results):
 
         prompt = SUMMARY_PROMPT.format(
+            query=user_query,
             results=results
         )
 

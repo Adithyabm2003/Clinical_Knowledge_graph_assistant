@@ -1,5 +1,5 @@
 [
- {
+  {
     "drug": "Pazopanib",
     "targets": ["VEGFR", "PDGFR"],
     "treats": ["Renal Cell Carcinoma"],
@@ -32,6 +32,153 @@
     "targets": ["RAF", "VEGFR"],
     "treats": ["Liver Cancer"],
     "adverse_events": ["Rash", "Hypertension"],
+    "clinical_phase": "Phase 3"
+  },
+  {
+    "drug": "Trastuzumab",
+    "targets": ["HER2"],
+    "treats": ["Breast Cancer", "Gastric Cancer"],
+    "adverse_events": ["Cardiomyopathy", "Infusion Reaction", "Neutropenia"],
+    "clinical_phase": "Phase 4"
+  },
+  {
+    "drug": "Pembrolizumab",
+    "targets": ["PD-1"],
+    "treats": ["Melanoma", "Non-Small Cell Lung Cancer", "Head and Neck Cancer"],
+    "adverse_events": ["Pneumonitis", "Colitis", "Fatigue"],
+    "clinical_phase": "Phase 4"
+  },
+  {
+    "drug": "Erlotinib",
+    "targets": ["EGFR"],
+    "treats": ["Non-Small Cell Lung Cancer", "Pancreatic Cancer"],
+    "adverse_events": ["Rash", "Diarrhea", "Acneiform Dermatitis"],
+    "clinical_phase": "Phase 4"
+  },
+  {
+    "drug": "Gefitinib",
+    "targets": ["EGFR"],
+    "treats": ["Non-Small Cell Lung Cancer"],
+    "adverse_events": ["Diarrhea", "Rash", "Hepatotoxicity"],
+    "clinical_phase": "Phase 4"
+  },
+  {
+    "drug": "Vemurafenib",
+    "targets": ["BRAF"],
+    "treats": ["Melanoma"],
+    "adverse_events": ["Arthralgia", "Rash", "Photosensitivity", "Squamous Cell Carcinoma"],
+    "clinical_phase": "Phase 3"
+  },
+  {
+    "drug": "Dabrafenib",
+    "targets": ["BRAF"],
+    "treats": ["Melanoma", "Thyroid Cancer"],
+    "adverse_events": ["Hyperkeratosis", "Headache", "Pyrexia"],
+    "clinical_phase": "Phase 3"
+  },
+  {
+    "drug": "Trametinib",
+    "targets": ["MEK1", "MEK2"],
+    "treats": ["Melanoma", "Non-Small Cell Lung Cancer"],
+    "adverse_events": ["Rash", "Diarrhea", "Lymphedema"],
+    "clinical_phase": "Phase 3"
+  },
+  {
+    "drug": "Lapatinib",
+    "targets": ["EGFR", "HER2"],
+    "treats": ["Breast Cancer"],
+    "adverse_events": ["Diarrhea", "Rash", "Hepatotoxicity"],
+    "clinical_phase": "Phase 3"
+  },
+  {
+    "drug": "Niraparib",
+    "targets": ["PARP"],
+    "treats": ["Ovarian Cancer", "Fallopian Tube Cancer"],
+    "adverse_events": ["Thrombocytopenia", "Anemia", "Hypertension", "Nausea"],
+    "clinical_phase": "Phase 3"
+  },
+  {
+    "drug": "Olaparib",
+    "targets": ["PARP"],
+    "treats": ["Ovarian Cancer", "Breast Cancer", "Prostate Cancer"],
+    "adverse_events": ["Anemia", "Neutropenia", "Fatigue", "Nausea"],
+    "clinical_phase": "Phase 4"
+  },
+  {
+    "drug": "Crizotinib",
+    "targets": ["ALK", "ROS1", "MET"],
+    "treats": ["Non-Small Cell Lung Cancer"],
+    "adverse_events": ["Vision Disorder", "Nausea", "Diarrhea", "Edema"],
+    "clinical_phase": "Phase 4"
+  },
+  {
+    "drug": "Alectinib",
+    "targets": ["ALK", "RET"],
+    "treats": ["Non-Small Cell Lung Cancer"],
+    "adverse_events": ["Constipation", "Fatigue", "Edema", "Myalgia"],
+    "clinical_phase": "Phase 3"
+  },
+  {
+    "drug": "Cabozantinib",
+    "targets": ["MET", "VEGFR", "RET"],
+    "treats": ["Renal Cell Carcinoma", "Thyroid Cancer", "Hepatocellular Carcinoma"],
+    "adverse_events": ["Hypertension", "Diarrhea", "Fatigue", "Palmar-Plantar Erythrodysesthesia"],
+    "clinical_phase": "Phase 3"
+  },
+  {
+    "drug": "Regorafenib",
+    "targets": ["VEGFR", "PDGFR", "RAF", "KIT", "RET"],
+    "treats": ["Colorectal Cancer", "GIST", "Hepatocellular Carcinoma"],
+    "adverse_events": ["Hypertension", "Hand-Foot Skin Reaction", "Fatigue", "Diarrhea"],
+    "clinical_phase": "Phase 3"
+  },
+  {
+    "drug": "Bevacizumab",
+    "targets": ["VEGF"],
+    "treats": ["Colorectal Cancer", "Lung Cancer", "Glioblastoma", "Renal Cell Carcinoma"],
+    "adverse_events": ["Hypertension", "Hemorrhage", "Proteinuria", "Wound Healing Complications"],
+    "clinical_phase": "Phase 4"
+  },
+  {
+    "drug": "Cetuximab",
+    "targets": ["EGFR"],
+    "treats": ["Colorectal Cancer", "Head and Neck Cancer"],
+    "adverse_events": ["Acneiform Rash", "Hypomagnesemia", "Infusion Reaction"],
+    "clinical_phase": "Phase 4"
+  },
+  {
+    "drug": "Rituximab",
+    "targets": ["CD20"],
+    "treats": ["Lymphoma", "Rheumatoid Arthritis", "Leukemia"],
+    "adverse_events": ["Infusion Reaction", "Neutropenia", "Progressive Multifocal Leukoencephalopathy"],
+    "clinical_phase": "Phase 4"
+  },
+  {
+    "drug": "Bortezomib",
+    "targets": ["Proteasome"],
+    "treats": ["Multiple Myeloma", "Mantle Cell Lymphoma"],
+    "adverse_events": ["Peripheral Neuropathy", "Thrombocytopenia", "Fatigue"],
+    "clinical_phase": "Phase 4"
+  },
+  {
+    "drug": "Carfilzomib",
+    "targets": ["Proteasome"],
+    "treats": ["Multiple Myeloma"],
+    "adverse_events": ["Fatigue", "Anemia", "Thrombocytopenia", "Dyspnea", "Cardiac Failure"],
+    "clinical_phase": "Phase 3"
+  },
+  {
+    "drug": "Palbociclib",
+    "targets": ["CDK4", "CDK6"],
+    "treats": ["Breast Cancer"],
+    "adverse_events": ["Neutropenia", "Leukopenia", "Fatigue", "Nausea", "Alopecia"],
+    "clinical_phase": "Phase 3"
+  },
+  {
+    "drug": "Ribociclib",
+    "targets": ["CDK4", "CDK6"],
+    "treats": ["Breast Cancer"],
+    "adverse_events": ["Neutropenia", "Leukopenia", "Headache", "QTc Prolongation"],
     "clinical_phase": "Phase 3"
   }
 ]
