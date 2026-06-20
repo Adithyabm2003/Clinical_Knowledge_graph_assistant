@@ -8,6 +8,7 @@ client = Neo4jClient()
 def create_indexes():
     queries = [
         "CREATE INDEX drug_name_index IF NOT EXISTS FOR (d:Drug) ON (d.name)",
+        "CREATE INDEX drug_phase_index IF NOT EXISTS FOR (d:Drug) ON (d.phase)",
         "CREATE INDEX protein_name_index IF NOT EXISTS FOR (p:Protein) ON (p.name)",
         "CREATE INDEX disease_name_index IF NOT EXISTS FOR (d:Disease) ON (d.name)",
         "CREATE INDEX adverse_name_index IF NOT EXISTS FOR (a:AdverseEvent) ON (a.name)"

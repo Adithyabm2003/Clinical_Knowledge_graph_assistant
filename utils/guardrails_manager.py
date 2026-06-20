@@ -8,6 +8,9 @@ gemini_key = os.getenv("GEMINI_API_KEY")
 if gemini_key:
     os.environ["GOOGLE_API_KEY"] = gemini_key
 
+# Explicitly use langchain framework for NeMo Guardrails
+os.environ["NEMOGUARDRAILS_LLM_FRAMEWORK"] = "langchain"
+
 # Now import nemoguardrails
 try:
     import nest_asyncio
